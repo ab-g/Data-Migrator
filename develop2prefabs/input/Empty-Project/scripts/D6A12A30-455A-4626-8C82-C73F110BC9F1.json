@@ -1,0 +1,78 @@
+{
+  "@class": "CameraFollowScript",
+  "aspectRatio": 1.3300000429153442,
+  "cameraLimitMaxX": 3,
+  "cameraLimitMaxY": 6,
+  "cameraLimitMaxZ": 0,
+  "cameraLimitMinX": -3,
+  "cameraLimitMinY": 0,
+  "cameraLimitMinZ": 0,
+  "cameraOffsetRotation": {
+    "values": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "cameraOffsetX": -5.921720003243536e-09,
+  "cameraOffsetY": 4,
+  "cameraOffsetZ": 15,
+  "cameraType": "perspective",
+  "castingIndent": 0,
+  "castingRadius": 0,
+  "castingTarget": {
+    "uuid": "00000000-0000-0000-0000-000000000000"
+  },
+  "castingTargetBL": {
+    "@class": "BindingLink",
+    "target": {
+      "id": {
+        "uuid": "678B0E4E-4961-48B6-AA68-CC44A2D66524"
+      },
+      "type": 0
+    }
+  },
+  "enableOnAwake": true,
+  "fov": 45,
+  "id": {
+    "uuid": "D6A12A30-455A-4626-8C82-C73F110BC9F1"
+  },
+  "is3dFollow": false,
+  "isAutoCreateCamera": true,
+  "isColliderCasting": false,
+  "isFollowDisabled": false,
+  "isTargetFixation": false,
+  "isTargetFixationAtStart": false,
+  "isTargetFixationX": false,
+  "isTargetFixationY": false,
+  "isTargetFixationZ": false,
+  "isUseCameraLimits": false,
+  "isUseLevelLimits": false,
+  "mouseLookLimitMax": 0,
+  "mouseLookLimitMin": 0,
+  "mouseLookSpeed": 0,
+  "name": "CameraFollowScript",
+  "objectToFollow": {
+    "uuid": "00000000-0000-0000-0000-000000000000"
+  },
+  "objectToFollowBL": {
+    "@class": "BindingLink",
+    "target": {
+      "id": {
+        "uuid": "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+      },
+      "type": 0
+    }
+  },
+  "postprocessing": {
+    "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
+  },
+  "shouldApplyToPositionX": true,
+  "shouldApplyToPositionY": true,
+  "shouldApplyToPositionZ": true,
+  "smoothSpeed": 0.15000000596046448,
+  "zFar": 600,
+  "zNear": 0.10000000149011612,
+  "zoom": 0.05723024904727936
+}

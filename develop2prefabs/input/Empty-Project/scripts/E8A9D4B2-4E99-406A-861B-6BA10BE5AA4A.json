@@ -1,0 +1,62 @@
+{
+  "@class": "Script_PostFX",
+  "BaseIntensity": 1,
+  "BaseSaturation": 1,
+  "BloomIntensity": 1,
+  "BloomIterations": 0,
+  "BloomSaturation": 1,
+  "BloomSoftTreshold": 0,
+  "BloomTreshold": 0,
+  "Brightness": 1,
+  "Contrast": 1,
+  "Gamma": 1,
+  "SRGB": true,
+  "bloomResolutionFactor_high": 8,
+  "bloomResolutionFactor_low": 32,
+  "bloomResolutionFactor_med": 16,
+  "bloom_enabled": false,
+  "cascade_high_enabled": true,
+  "cascade_low_enabled": true,
+  "cascade_med_enabled": true,
+  "chromatic_aberration_enabled": false,
+  "chromatic_aberration_scale": 5,
+  "color_grading_enabled": false,
+  "dof_aperture": 0,
+  "dof_distance": 0.15000000596046448,
+  "dof_enabled": false,
+  "dof_range": 10,
+  "enableOnAwake": false,
+  "field_1": {
+    "values": [
+      0.20000000298023224,
+      0.20000000298023224,
+      0.20000000298023224
+    ]
+  },
+  "field_2": {
+    "values": [
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612
+    ]
+  },
+  "field_3": {
+    "values": [
+      0.05000000074505806,
+      0.05000000074505806,
+      0.05000000074505806
+    ]
+  },
+  "fxaa_enabled": true,
+  "id": {
+    "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
+  },
+  "name": "Script_PostFX",
+  "ssao_enabled": false,
+  "ssao_intensity": 0,
+  "ssao_radius": 0,
+  "sslr_bias": 0,
+  "sslr_enabled": false,
+  "sslr_iterations": 0,
+  "sslr_offset": 0
+}

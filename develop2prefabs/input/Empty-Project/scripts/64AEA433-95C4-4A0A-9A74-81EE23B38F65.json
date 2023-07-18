@@ -1,0 +1,13 @@
+{
+  "@class": "NetworkScript",
+  "clientsMax": 0,
+  "enableOnAwake": false,
+  "enabled": false,
+  "gameId": {
+    "uuid": "00000000-0000-0000-0000-000000000000"
+  },
+  "id": {
+    "uuid": "64AEA433-95C4-4A0A-9A74-81EE23B38F65"
+  },
+  "name": "NetworkScript"
+}

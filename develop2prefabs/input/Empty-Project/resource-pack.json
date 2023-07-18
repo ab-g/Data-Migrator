@@ -1,0 +1,139 @@
+{
+  "@class": "ResourcePack",
+  "cameras": {
+    "@class": "StdResourceMapCamera",
+    "map": [
+      {
+        "key": {
+          "uuid": "99DE5B61-6462-40B9-A813-FBA5AA0FB737"
+        },
+        "value": {
+          "@class": "Camera",
+          "id": {
+            "uuid": "99DE5B61-6462-40B9-A813-FBA5AA0FB737"
+          }
+        }
+      }
+    ]
+  },
+  "colliders": {
+    "@class": "StdResourceMapCollider",
+    "map": [
+      {
+        "key": {
+          "uuid": "3BF92E38-04DF-46A6-A60E-CB76667083A9"
+        },
+        "value": {
+          "@class": "Collider",
+          "id": {
+            "uuid": "3BF92E38-04DF-46A6-A60E-CB76667083A9"
+          }
+        }
+      }
+    ]
+  },
+  "images": {
+    "@class": "StdResourceMapImage",
+    "map": [
+      {
+        "key": {
+          "uuid": "D6B9EBE3-D3D6-444C-8F37-F86FC7039750"
+        },
+        "value": {
+          "@class": "DevILImage",
+          "id": {
+            "uuid": "D6B9EBE3-D3D6-444C-8F37-F86FC7039750"
+          }
+        }
+      }
+    ]
+  },
+  "lights": {
+    "@class": "StdResourceMapLight",
+    "map": []
+  },
+  "materials": {
+    "@class": "StdResourceMapMaterial",
+    "map": [
+      {
+        "key": {
+          "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
+        },
+        "value": {
+          "@class": "Material",
+          "id": {
+            "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
+          }
+        }
+      }
+    ]
+  },
+  "meshes": {
+    "@class": "StdResourceMapMesh",
+    "map": [
+      {
+        "key": {
+          "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+        },
+        "value": {
+          "@class": "Mesh",
+          "id": {
+            "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+          }
+        }
+      }
+    ]
+  },
+  "rigidBodies": {
+    "@class": "StdResourceMapPhysicsBody",
+    "map": [
+      {
+        "key": {
+          "uuid": "70D69DB0-8308-441B-BD47-892C70F11781"
+        },
+        "value": {
+          "@class": "PhysicsBody",
+          "id": {
+            "uuid": "70D69DB0-8308-441B-BD47-892C70F11781"
+          }
+        }
+      }
+    ]
+  },
+  "scenes": {
+    "@class": "StdResourceMapScene",
+    "map": [
+      {
+        "key": {
+          "uuid": "1C435217-1F56-4B14-B162-D5571841CD11"
+        },
+        "value": {
+          "@class": "BaseScene",
+          "id": {
+            "uuid": "1C435217-1F56-4B14-B162-D5571841CD11"
+          }
+        }
+      }
+    ]
+  },
+  "textures2d": {
+    "@class": "StdResourceMapTexture2D",
+    "map": [
+      {
+        "key": {
+          "uuid": "9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"
+        },
+        "value": {
+          "@class": "Texture2D",
+          "id": {
+            "uuid": "9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"
+          }
+        }
+      }
+    ]
+  },
+  "texturesCube": {
+    "@class": "StdResourceMapTextureCube",
+    "map": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "@class": "Script_Gravity",
+  "direction": {
+    "values": [
+      0,
+      -9.779999732971191,
+      0
+    ]
+  },
+  "enableOnAwake": true,
+  "id": {
+    "uuid": "491640B4-ECC9-4D7F-A974-76614E9934F6"
+  },
+  "name": "Script_Gravity"
+}

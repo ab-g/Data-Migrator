@@ -1,0 +1,25 @@
+{
+  "@class": "Script_Sun",
+  "enableOnAwake": true,
+  "id": {
+    "uuid": "99414E6E-C0D9-4511-BD4A-47AFEFB847BC"
+  },
+  "name": "Script_Sun",
+  "sun_color": {
+    "values": [
+      1,
+      1,
+      1
+    ]
+  },
+  "sun_enabled": true,
+  "sun_intensity": 0.75,
+  "sun_light_mode": "",
+  "sun_rotation": {
+    "values": [
+      -50,
+      50,
+      0
+    ]
+  }
+}
