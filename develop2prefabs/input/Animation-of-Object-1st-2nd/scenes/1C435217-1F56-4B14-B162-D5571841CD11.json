@@ -1,0 +1,487 @@
+{
+  "@class": "BaseScene",
+  "assetsNames": [
+    {
+      "key": {
+        "uuid": "2C3ADF7E-395B-47DA-9A78-3DBE397225B5"
+      },
+      "value": "Floor_200x200"
+    }
+  ],
+  "id": {
+    "uuid": "1C435217-1F56-4B14-B162-D5571841CD11"
+  },
+  "name": "Level",
+  "nodes": [
+    {
+      "@class": "BaseNode",
+      "children": [
+        "D8E1D3DE-2BB8-4152-AD73-D8CFD5761AB5",
+        "A0DAFCA4-98B7-44FF-B61E-24DDEDB47BB9",
+        "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2",
+        "B265A689-FBED-4B69-A699-C0859BF1624C",
+        "88B9FFE3-153F-4E5F-9286-71E229D02F73",
+        "F2B6D6A4-6B3D-4010-8449-46CAD3F41F56"
+      ],
+      "object3D": {
+        "@class": "BaseObject3D",
+        "enabled": true,
+        "hitVisible": true,
+        "id": {
+          "uuid": "243649C0-D7F6-48FA-A44E-36AD29632827"
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false,
+          "tags": []
+        },
+        "name": "UserRootObject",
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "isGlobalTransforms": false,
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "visible": false
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "color_index": 2,
+      "object3D": {
+        "@class": "BaseObject3D",
+        "camera": {
+          "@class": "BaseComponentCamera",
+          "cameraId": {
+            "uuid": "99DE5B61-6462-40B9-A813-FBA5AA0FB737"
+          }
+        },
+        "enabled": true,
+        "hitVisible": true,
+        "id": {
+          "uuid": "D8E1D3DE-2BB8-4152-AD73-D8CFD5761AB5"
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false,
+          "tags": []
+        },
+        "name": "MainCamera",
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "isGlobalTransforms": false,
+          "localTransforms": {
+            "values": [
+              1.0000001192092896,
+              -2.8418201125646192e-08,
+              1.7763570511584873e-15,
+              0,
+              2.7986514439248822e-08,
+              0.9848096370697021,
+              -0.17364861071109772,
+              0,
+              4.934778807808016e-09,
+              0.17364861071109772,
+              0.9848096370697021,
+              0,
+              0,
+              4,
+              15,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "color_index": 5,
+      "object3D": {
+        "@class": "BaseObject3D",
+        "enabled": true,
+        "hitVisible": true,
+        "id": {
+          "uuid": "A0DAFCA4-98B7-44FF-B61E-24DDEDB47BB9"
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false,
+          "tags": []
+        },
+        "name": "MainCharacter",
+        "spawner": {
+          "@class": "BaseComponentSpawner",
+          "characterScriptId": {
+            "uuid": "CCE70F4E-1368-4374-B62D-B7FD0C83A0A1"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "isGlobalTransforms": false,
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "asset_id": {
+        "uuid": "2C3ADF7E-395B-47DA-9A78-3DBE397225B5"
+      },
+      "asset_name": "Floor_200x200",
+      "color_index": 6,
+      "is_asset_root": true,
+      "object3D": {
+        "@class": "BaseObject3D",
+        "colliders": [
+          {
+            "@class": "BaseComponentCollider",
+            "colliderId": {
+              "uuid": "3BF92E38-04DF-46A6-A60E-CB76667083A9"
+            }
+          }
+        ],
+        "enabled": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "baked": false,
+          "meshId": {
+            "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+          },
+          "shadowCast": true,
+          "shadowReceive": true,
+          "static": false
+        },
+        "hitVisible": false,
+        "id": {
+          "uuid": "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "Plane_zero",
+          "importedName": "Plane_zero",
+          "isBone": false,
+          "tags": []
+        },
+        "name": "Item 1",
+        "rigidBody": {
+          "@class": "BaseComponentPhysBody",
+          "isEnabled": true,
+          "rigidBodyId": {
+            "uuid": "70D69DB0-8308-441B-BD47-892C70F11781"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "isGlobalTransforms": false,
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "colliders": [
+          {
+            "@class": "BaseComponentCollider",
+            "colliderId": {
+              "uuid": "7F9FC17E-D1C4-4084-B122-A6220741C0BC"
+            }
+          }
+        ],
+        "enabled": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "baked": false,
+          "meshId": {
+            "uuid": "00F3BE50-1D02-41A3-8EA4-606D252343E2"
+          },
+          "shadowCast": true,
+          "shadowReceive": true,
+          "static": false
+        },
+        "hitVisible": true,
+        "id": {
+          "uuid": "B265A689-FBED-4B69-A699-C0859BF1624C"
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false,
+          "tags": []
+        },
+        "name": "Box 1",
+        "rigidBody": {
+          "@class": "BaseComponentPhysBody",
+          "isEnabled": true,
+          "rigidBodyId": {
+            "uuid": "E375D8DC-9434-4F16-960F-A8618F435956"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "isGlobalTransforms": false,
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "colliders": [
+          {
+            "@class": "BaseComponentCollider",
+            "colliderId": {
+              "uuid": "33B9E2C5-5234-4C47-A493-625336206D0D"
+            }
+          }
+        ],
+        "enabled": true,
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "baked": false,
+          "meshId": {
+            "uuid": "8A6794ED-224D-4DA8-8733-6FA4A7920FF5"
+          },
+          "shadowCast": true,
+          "shadowReceive": true,
+          "static": false
+        },
+        "hitVisible": true,
+        "id": {
+          "uuid": "88B9FFE3-153F-4E5F-9286-71E229D02F73"
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false,
+          "tags": []
+        },
+        "name": "Box 2",
+        "rigidBody": {
+          "@class": "BaseComponentPhysBody",
+          "isEnabled": true,
+          "rigidBodyId": {
+            "uuid": "097ECC69-69D9-4D01-9B2A-0425C6757E1C"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "isGlobalTransforms": false,
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              3,
+              0,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "enabled": true,
+        "hitVisible": true,
+        "id": {
+          "uuid": "F2B6D6A4-6B3D-4010-8449-46CAD3F41F56"
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false,
+          "tags": []
+        },
+        "name": "Animation of Collision",
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "B8A30AAC-B397-4261-9077-CBBF4896BB35"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "isGlobalTransforms": false,
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "visible": true
+      }
+    }
+  ],
+  "scriptSystem": {
+    "@class": "BaseScriptSystem",
+    "scripts": [
+      {
+        "@class": "Script_SkyBox",
+        "id": {
+          "uuid": "8BC74022-8583-422A-9F4E-C2DDD5EFCD8C"
+        }
+      },
+      {
+        "@class": "Script_Sun",
+        "id": {
+          "uuid": "99414E6E-C0D9-4511-BD4A-47AFEFB847BC"
+        }
+      },
+      {
+        "@class": "Script_Gravity",
+        "id": {
+          "uuid": "491640B4-ECC9-4D7F-A974-76614E9934F6"
+        }
+      },
+      {
+        "@class": "CameraFollowScript",
+        "id": {
+          "uuid": "D6A12A30-455A-4626-8C82-C73F110BC9F1"
+        }
+      },
+      {
+        "@class": "Script_PostFX",
+        "id": {
+          "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
+        }
+      },
+      {
+        "@class": "Script_FogFX",
+        "id": {
+          "uuid": "84A57701-C714-457B-AA50-F45A3F8E9C01"
+        }
+      },
+      {
+        "@class": "NetworkScript",
+        "id": {
+          "uuid": "64AEA433-95C4-4A0A-9A74-81EE23B38F65"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "B8A30AAC-B397-4261-9077-CBBF4896BB35"
+        }
+      }
+    ]
+  },
+  "tags": []
+}

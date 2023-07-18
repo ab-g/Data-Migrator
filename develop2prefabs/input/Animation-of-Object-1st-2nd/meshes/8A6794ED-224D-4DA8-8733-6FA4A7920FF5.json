@@ -1,0 +1,19 @@
+{
+  "@class": "BoxMesh",
+  "depth": 1,
+  "hasBinormals": true,
+  "hasColors": false,
+  "hasLightMapUV": false,
+  "hasNormals": true,
+  "hasPositions": true,
+  "hasSkinAttributes": false,
+  "hasTangents": true,
+  "hasUV": true,
+  "height": 1,
+  "heightSegmentCount": 1,
+  "id": {
+    "uuid": "8A6794ED-224D-4DA8-8733-6FA4A7920FF5"
+  },
+  "width": 1,
+  "widthSegmentCount": 1
+}

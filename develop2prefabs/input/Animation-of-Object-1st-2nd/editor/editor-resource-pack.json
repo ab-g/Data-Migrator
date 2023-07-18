@@ -1,0 +1,119 @@
+{
+  "flowcharts": [],
+  "id": {
+    "uuid": "655C8D55-7139-4A76-95FF-AF940D3E8895"
+  },
+  "paintGroups": [],
+  "scenes": [
+    {
+      "key": {
+        "uuid": "1C435217-1F56-4B14-B162-D5571841CD11"
+      },
+      "value": {
+        "id": {
+          "uuid": "1C435217-1F56-4B14-B162-D5571841CD11"
+        },
+        "position": -1,
+        "scriptSystem": {
+          "timelines": []
+        },
+        "timelines": [
+          {
+            "uuid": "66442C88-8D89-41F7-9C93-A7795920617B"
+          },
+          {
+            "uuid": "830C7ADB-9DD8-41D4-B87D-0F7ACB8AF08D"
+          },
+          {
+            "uuid": "80567FC5-DE29-469F-91CC-4D7B3B592E0B"
+          },
+          {
+            "uuid": "DFD1D7D4-9B52-4130-A21C-FADB8F029070"
+          },
+          {
+            "uuid": "0BED8F15-F6C9-4AB7-838A-F06B2D558C08"
+          },
+          {
+            "uuid": "4801578E-5986-4B60-ACE2-71E67CBDED06"
+          },
+          {
+            "uuid": "BAF42D48-B587-42ED-9769-D435335E2593"
+          },
+          {
+            "uuid": "40A7DA28-6689-45B2-B68D-14CA9F743CCC"
+          },
+          {
+            "uuid": "16C84FFA-B8F5-4B4C-8354-567F6E35F77C"
+          },
+          {
+            "uuid": "72CE768A-49A7-4904-ADDF-8D6C89E4C9FC"
+          },
+          {
+            "uuid": "382D41D8-DFC4-490A-82E3-734F68362D80"
+          },
+          {
+            "uuid": "113E017A-97C6-4B60-B1D0-ED998C1E38C0"
+          },
+          {
+            "uuid": "B99E689B-88C3-4817-AD25-428E99873CA9"
+          },
+          {
+            "uuid": "2B90DCBB-1E38-415F-B884-7E652D3159A4"
+          },
+          {
+            "uuid": "04219F88-105A-4527-BEF8-10AEE9500B21"
+          },
+          {
+            "uuid": "80DD9387-3323-4264-8AD1-06B2FBAE3CB8"
+          },
+          {
+            "uuid": "D56C0588-8C39-48B2-9BEB-53B319FDB96A"
+          },
+          {
+            "uuid": "4D2259E5-D2DB-4DC1-A953-44259FD62268"
+          },
+          {
+            "uuid": "4603A5E5-CF3F-4671-B9EA-964C55437D79"
+          },
+          {
+            "uuid": "7903061F-0470-43DB-90F2-C684A5ED98AB"
+          },
+          {
+            "uuid": "B1DCF416-D978-47BE-B33C-9A87EFF3855A"
+          },
+          {
+            "uuid": "93D038C8-B757-43D2-95E9-E56A75EE9E72"
+          },
+          {
+            "uuid": "04366982-B2BF-4EBB-83B7-71821E8E3A1D"
+          },
+          {
+            "uuid": "0797C880-E036-4C9B-B399-D23116BBFA4D"
+          },
+          {
+            "uuid": "28308480-5079-43ED-9100-14911EB0949C"
+          },
+          {
+            "uuid": "1823E5AF-C70C-4C00-BEE4-AC22082ACDB9"
+          },
+          {
+            "uuid": "3531EA10-63E2-442D-830E-FD1D23C97461"
+          },
+          {
+            "uuid": "B06335C2-7AD5-4EBD-8C6D-03959FA75A56"
+          },
+          {
+            "uuid": "316B5905-1557-4803-AF4C-FD7032FB557C"
+          },
+          {
+            "uuid": "EDC8E0C0-6D50-48A4-96A8-936A190C4E66"
+          },
+          {
+            "uuid": "B8A30AAC-B397-4261-9077-CBBF4896BB35"
+          }
+        ]
+      }
+    }
+  ],
+  "stateMachines": []
+}

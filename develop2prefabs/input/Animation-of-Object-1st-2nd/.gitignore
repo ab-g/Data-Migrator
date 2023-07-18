@@ -1,0 +1,9 @@
+tmp
+
+# macOS
+
+# General
+.DS_Store
+
+# Thumbnails
+._*

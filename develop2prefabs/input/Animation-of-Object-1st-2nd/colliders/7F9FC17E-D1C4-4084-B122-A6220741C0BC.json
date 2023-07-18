@@ -1,0 +1,27 @@
+{
+  "@class": "Collider",
+  "colliderInfo": [
+    {
+      "@class": "ColliderInfo",
+      "alongAxis": "oy",
+      "center": {
+        "values": [
+          0,
+          -2.9802322387695312e-08,
+          -2.9802322387695312e-08
+        ]
+      },
+      "collisionShape": "box",
+      "params": {
+        "values": [
+          1.0000001192092896,
+          1,
+          1.000000238418579
+        ]
+      }
+    }
+  ],
+  "id": {
+    "uuid": "7F9FC17E-D1C4-4084-B122-A6220741C0BC"
+  }
+}

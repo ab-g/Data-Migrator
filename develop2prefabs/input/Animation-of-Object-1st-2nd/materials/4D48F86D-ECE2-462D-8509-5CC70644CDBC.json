@@ -1,0 +1,145 @@
+{
+  "@class": "Material",
+  "aberrations": 1,
+  "absorbtion": 0,
+  "alphaMap": {
+    "uuid": "00000000-0000-0000-0000-000000000001"
+  },
+  "ambient": {
+    "values": [
+      0,
+      0,
+      0
+    ]
+  },
+  "ambientIntensity": 0.3499999940395355,
+  "blendingType": "normal",
+  "bloomThreshold": 0.800000011920929,
+  "colorsType": "no",
+  "cubemapSize": 256,
+  "cubemapUpdateSpeed": -1,
+  "depthType": "default",
+  "detailType": "none",
+  "diffuse": {
+    "values": [
+      0.7297400832176208,
+      0.7297400832176208,
+      0.7297400832176208
+    ]
+  },
+  "diffuseMap": {
+    "uuid": "9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"
+  },
+  "emissive": {
+    "values": [
+      0,
+      0,
+      0
+    ]
+  },
+  "emissiveIntensity": 0,
+  "emissiveMap": {
+    "uuid": "00000000-0000-0000-0000-000000000006"
+  },
+  "envMap": {
+    "uuid": "00000000-0000-0000-0000-000000000009"
+  },
+  "glowThreshold": 0,
+  "heightMap": {
+    "uuid": "00000000-0000-0000-0000-000000000004"
+  },
+  "heightScale": 1,
+  "id": {
+    "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
+  },
+  "interpolation": "linear",
+  "irrEnvMap": {
+    "uuid": "00000000-0000-0000-0000-000000000010"
+  },
+  "lightningType": "perPixel",
+  "mapsStates": 127,
+  "metalness": 0,
+  "metalnessMap": {
+    "uuid": "00000000-0000-0000-0000-000000000007"
+  },
+  "name": "Gray",
+  "normalMap": {
+    "uuid": "00000000-0000-0000-0000-000000000002"
+  },
+  "normalScale": 1,
+  "occlusionMap": {
+    "uuid": "00000000-0000-0000-0000-000000000005"
+  },
+  "opacity": 1,
+  "refraction": 0.5,
+  "renderingType": "opaque",
+  "rimColor": {
+    "values": [
+      1,
+      1,
+      1
+    ]
+  },
+  "rimIntensity": 1,
+  "roughness": 1,
+  "roughnessMap": {
+    "uuid": "00000000-0000-0000-0000-000000000008"
+  },
+  "shadingType": "pbr",
+  "shininess": 6.311791896820068,
+  "sideType": "front",
+  "specular": {
+    "values": [
+      0.7297400832176208,
+      0.7297400832176208,
+      0.7297400832176208
+    ]
+  },
+  "specularMap": {
+    "uuid": "00000000-0000-0000-0000-000000000003"
+  },
+  "tilingOffset": {
+    "values": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "toonGlare": {
+    "values": [
+      1,
+      1,
+      1
+    ]
+  },
+  "toonGradient": {
+    "@class": "StdListVector3",
+    "list": [
+      {
+        "values": [
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      {
+        "values": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.6000000238418579
+        ]
+      },
+      {
+        "values": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "turbidity": 0,
+  "wrapS": "repeat",
+  "wrapT": "repeat"
+}
